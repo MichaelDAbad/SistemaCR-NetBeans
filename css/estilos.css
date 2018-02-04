@@ -1,0 +1,193 @@
+/* ^Inicio -barra de navegacion
+-----------------------------------------------------------------------------*
+/* Contenido*/
+*{
+  
+  margin-bottom: 20px;
+  font-family:cursive;
+}
+/* .navbar_header{
+  background: rgba(0, 0, 0, 0.69);
+  width: 100%;
+  position: fixed;
+  z-index:
+} */
+.navbar__nav{
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.69);
+  width: 100%;
+  position:sticky;
+  z-index: none;
+  box-shadow: -2px 5px 5px -2px #333333;
+}
+.navbar__ul{
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+  margin-left: 0px;
+}
+.navbar__li{
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+.enlace{
+  display: block;/* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration:none;
+}
+.navbar__li--fecha{
+  float: right;
+  margin-top: 17px;
+  margin-right: 10%;
+}
+.navbar__li--fecha:hover{
+  background: none;
+}
+li:hover{
+background: #19CF86;
+}
+.navbar__nav_inicio{
+  margin-left:30px;
+}
+/* ^Fin -barra de navegacion
+*-----------------------------------------------------------------------------*/
+
+/* ^Inicio -estilo de cabecera
+-----------------------------------------------------------------------------*
+/* boton*/
+/*cabecera*/
+.cabecera{
+  background: #19CF86;
+  padding: 15px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius:20px;
+  border-bottom-style:outset;
+  width: 100%;
+}
+.btn{
+  font-weight: normal;
+  font-size: 18px;
+  padding: 5px 20px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;}
+.btn--claro {
+  background-color: #19CF90;
+  border: 1px solid #fff;
+  color: #fff;}
+.btn--claro:hover {
+  color: white;
+  background:rgba(255, 255, 255, 0.26);
+  border-color: white;}
+.btn--md{
+padding: 13px 30px;
+margin: -2px;
+width: 100%;
+}
+.btn--md:hover{
+background: rgba(31, 124, 51, 0.29);
+border: 1px solid green;
+color: #aaa;
+}
+  /*Nombre del sistema*/
+.cabecera__nombresistema{
+  margin-left: 15%;
+  font-size: 26px;
+  }
+  /*circulo de carga*/
+ .cabecera__iconocentro{
+  text-align: center;
+ }
+ /*Nombre de usuario*/
+ .cabecera__nombreusuario{
+  text-align: center;
+  margin-top: 6px;
+ }
+/*foto de Usuario*/
+#cabecera_usuario{
+  margin-top: -1px;
+width: 35px;
+height: 35px;
+border: 1px solid white;
+border-radius: 100%;
+overflow: hidden;
+}
+#cabecera_usuario:hover{
+  filter: grayscale(50%);
+  cursor: pointer;
+}
+/* ^Fin -estilo de cabecera
+*-----------------------------------------------------------------------------*/
+/* ^Inicio -Mneu tabla
+-----------------------------------------------------------------------------*
+/* Contenido*/
+td img{
+  width: 200px;
+  border: 2px solid rgba(204, 191, 189, 0.53);
+}
+td img:hover{
+  background: rgba(71, 199, 137, 0.39);
+  border: 1px solid rgba(204, 191, 189, 0.53);
+}
+/* ^Fin -Mneu tabla
+*-----------------------------------------------------------------------------*/
+/* ^Inicio -tabla productos
+-----------------------------------------------------------------------------*
+/* Contenido*/
+.contenido {
+  text-align: center;
+  border: 1.5px solid #19CF86;
+  border-radius:5px;
+
+}
+  .contenido--tr  > td,th   {
+  padding: 6px;
+  border-bottom: 1px solid #19CF86;
+}
+.table__cat{
+  background: #19CF86;
+}
+input[type=text],input[type=password]{
+  width: 100%;
+  padding: 12px;
+  outline-color: #19CF90;
+  border: none;
+  border-bottom: 2px solid #19CF86;
+  resize: vertical;
+  font-size: 18px;
+  color: #aaa;
+  font-family: cursive;
+
+}
+.btnlk{
+  padding: 10px 30px;
+  border-radius: 4px;
+  outline: none;
+  background: #fff;
+  border: 1px solid #aaa;
+  font-size: 18px;
+  color: #aaa;
+}
+.btnlk--mediano{
+  padding: 5px 10px;
+  font-size: 15px;
+}
+.btnlk--verde:hover{
+  border: 1px solid green;
+  color: green;
+}
+.btnlk--rojo:hover{
+  border: 1px solid red;
+  color: red;
+}
+select, textarea{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+/* ^Fin -tabla productos
+*-----------------------------------------------------------------------------*/
