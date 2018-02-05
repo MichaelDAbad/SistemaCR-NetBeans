@@ -4,6 +4,9 @@
 if(!isset($_SESSION["username"])){
     header("location: login.php");
 }
+if($_SESSION["access"]!=='Admin'){
+    header("location: error.php");
+}
 ?>
 <?php
 if(isset($_POST['btnbuscar'])){
@@ -68,7 +71,7 @@ if(isset($_POST['btnbuscar'])){
           </tr>
           <?php } }?>
           <tr class="contenido--tr">
-            <td colspan="4">Total de ingresos</td>
+            <td colspan="4"></td>
             <td>ventas</td>
             <td>ganancias</td>
           </tr>

@@ -7,11 +7,13 @@
         <li class="navbar__li"><a class="enlace" href="ventas.php">Ventas</a></li>
         <li class="navbar__li"><a class="enlace" href="productos.php">Productos</a></li>
         <li class="navbar__li"><a class="enlace" href="clientes.php">Clientes</a></li>
+        <?php if($_SESSION["access"]=='Admin'){;?>
         <li class="navbar__li navbar__li"><a class="enlace" href="proveedores.php">Proveedores</a></li>
         <li class="navbar__li"><a class="enlace" href="reportes.php">Reporde de ventas</a></li>
+        <?php } ?>
         <li class="navbar__li--fecha" style="color:white"><?php
         date_default_timezone_set('America/Lima');
-        echo date('g:ia'); ?></li>
+        echo date('g:i a'); ?></li>
         <li class="navbar__li--fecha" style="color:white"><?php echo date('d/m/Y'); ?></li>
 
       </ul>

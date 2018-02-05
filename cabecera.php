@@ -36,7 +36,7 @@
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2">
             <div class="">
-                <a href="logout.php"> <button class="btn btn--claro">cerrar</button></a> 
+                <a href="logout.php"> <button class="btn btn--claro">cerrar</button></a>
             </div>
           </div>
         </div>

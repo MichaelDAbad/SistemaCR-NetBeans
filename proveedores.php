@@ -4,6 +4,9 @@
 if(!isset($_SESSION["username"])){
     header("location: login.php");
 }
+if($_SESSION["access"]!=='Admin'){
+    header("location: error.php");
+}
 ?>
 <!--Javascript popup Agregar-->
 <script type="text/javascript">

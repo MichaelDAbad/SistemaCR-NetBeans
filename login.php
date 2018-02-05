@@ -49,7 +49,7 @@ input[type=text], input[type=password], select, textarea{
 input[type=text]{
   background-color: white;
   background-image: url('fuentes/user-1.svg');
-  background-position: 1px 1px;
+  background-position: 1px 5px;
   background-repeat: no-repeat;
   padding-left: 50px;
 
@@ -58,6 +58,7 @@ input[type=password]{
   padding-left: 50px;
   background-image: url('fuentes/padlock.svg');
   background-repeat: no-repeat;
+   background-position: 1px 5px;
 }
 label {
   padding: 12px 12px 12px 0;
@@ -113,10 +114,10 @@ input[type=submit]:hover {
       <label for="country"></label>
     </div>
     <div class="col-75">
-      <select id="country" name="country">
-        <option value="australia">Vendedor</option>
-        <option value="canada">Administrador</option>
-        <option value="usa">Administrativo V2.0</option>
+      <select id="country" name="acceso">
+        <option value="1">Vendedor</option>
+        <option value="2">Administrador</option>
+        <option value="3">Administrativo V2.0</option>
       </select>
     </div>
   </div>
