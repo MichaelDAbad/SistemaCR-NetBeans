@@ -48,13 +48,17 @@ input[type=text], input[type=password], select, textarea{
 }
 input[type=text]{
   background-color: white;
-  background-image: url('fuentes/twitter.svg');
+  background-image: url('fuentes/user-1.svg');
   background-position: 1px 1px;
   background-repeat: no-repeat;
-  padding-left: 40px;
+  padding-left: 50px;
 
 }
-
+input[type=password]{
+  padding-left: 50px;
+  background-image: url('fuentes/padlock.svg');
+  background-repeat: no-repeat;
+}
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
@@ -80,7 +84,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  width: 20%;
+  width: 300px;
   margin-left: 40%;
 }
 </style>

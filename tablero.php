@@ -28,3 +28,4 @@ if(!isset($_SESSION["username"])){
     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
   </div>
 </div>
+<?php include_once './pie.php';?>

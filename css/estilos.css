@@ -148,7 +148,7 @@ td img:hover{
 .table__cat{
   background: #19CF86;
 }
-input[type=text],input[type=password]{
+input[type=text],input[type=password],input[type=date]{
   width: 100%;
   padding: 12px;
   outline-color: #19CF90;

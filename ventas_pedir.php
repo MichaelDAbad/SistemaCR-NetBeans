@@ -214,7 +214,7 @@ if(isset($_POST['pedir'])){
         <table border="0" align="center">
         <tr>
           <td>Fecha actual</td>
-          <td><input type="text" name="fechaA" value="<?php echo date("d/m/Y");?>"></td>
+          <td><input type="text" name="fechaA" value="<?php echo date("Y/m/d");?>"></td>
           <td width="20px;" colspan="2"><input type="text" name="preciocompra" value="<?php echo $filac['purchase'];?>" hidden=""></td>
         </tr>
         <tr>

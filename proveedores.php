@@ -184,3 +184,4 @@ mysqli_query($conexion, $sql);
     </div>
   </div>
 </div>
+<?php include_once './pie.php';?>

@@ -231,3 +231,4 @@ include_once './config.php';
     </div>
   </div>
 </div>
+<?php include_once './pie.php';?>
