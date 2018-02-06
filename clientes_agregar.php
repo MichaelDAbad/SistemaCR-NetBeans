@@ -126,12 +126,12 @@ if(!isset($_SESSION["username"])){
       <table border="0" align="center">
       <tr>
         <td>Nombre</td>
-        <td><input type="text" name="nombre" value="" placeholder="cantidad"></td>
+        <td><input type="text" name="nombre" value=""></td>
         <td></td>
       </tr>
       <tr>
         <td>Contacto</td>
-        <td><input type="text" name="contacto" value="" placeholder="cantidad"></td>
+        <td><input type="text" name="contacto" value=""></td>
         <td></td>
       </tr>
       <tr>

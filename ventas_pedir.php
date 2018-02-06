@@ -206,7 +206,6 @@ if(isset($_POST['pedir'])){
     <div class="popup-centrar">
       <div class="popup-container">
         <div class="popup-header">
-          <p style="text-align:right;"><a href= "javascript:void(0)" onclick="toggle_visibility('popup-box1')"><font color="red"> X </font></a></p>
           <p style="font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;font-size:16px;">FORMULARIO DE TRANSACCION</p>
         </div>
         <div class="popup-body">
@@ -254,7 +253,7 @@ if(isset($_POST['pedir'])){
         </tr>
         <tr>
           <td>Cantidad</td>
-          <td><input type="text" name="cantidad" value="<?php echo @$cantidad;?>"></td>
+          <td><input type="text" name="cantidad" value="<?php echo @$cantidad;?>" autofocus=""></td>
           <td></td>
         </tr>
         <tr>

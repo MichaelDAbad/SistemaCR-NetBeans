@@ -188,12 +188,12 @@ include_once './config.php';
       </tr>
       <tr>
         <td>Nombre</td>
-        <td><input type="text" name="nombre" value="" placeholder="cantidad" required></td>
+        <td><input type="text" name="nombre" value="" required autofocus=""></td>
         <td></td>
       </tr>
       <tr>
         <td>Cantidad</td>
-        <td><input type="text" name="cantidad" value="" placeholder="cantidad" required></td>
+        <td><input type="text" name="cantidad" value=""required></td>
         <td></td>
       </tr>
       <tr>
