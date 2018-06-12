@@ -15,7 +15,7 @@ sessios_destroy();
     
     para asociar los datos sql a php
 $sql="select * from alimnos";
-$result=$conexion->quey($sql);
+$result=$conexion->query($sql);
 $fila=$result->fetch_assoc();
 
 con esto podemos acceder a las listas asi :( $fila['nombre'];)
